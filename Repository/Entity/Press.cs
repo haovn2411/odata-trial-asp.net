@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace ODataBookStore.Entity
+namespace Repository.Entity
 {
     public class Press
     {

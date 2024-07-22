@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace ODataBookStore.Entity
+namespace Repository.Entity
 {
     public class BookStoreContext : DbContext
     {

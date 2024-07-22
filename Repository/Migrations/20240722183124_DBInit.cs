@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace ODataBookStore.Migrations
+namespace Repository.Migrations
 {
     /// <inheritdoc />
     public partial class DBInit : Migration
@@ -34,7 +34,7 @@ namespace ODataBookStore.Migrations
                     Title = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Author = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Price = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    PressId = table.Column<int>(type: "int", nullable: false),
+                    PressId = table.Column<int>(type: "int", nullable: true),
                     Location_City = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Location_Street = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
@@ -45,8 +45,7 @@ namespace ODataBookStore.Migrations
                         name: "FK_Books_Presss_PressId",
                         column: x => x.PressId,
                         principalTable: "Presss",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "Id");
                 });
 
             migrationBuilder.CreateIndex(

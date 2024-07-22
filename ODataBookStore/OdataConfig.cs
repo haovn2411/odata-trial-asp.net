@@ -1,6 +1,7 @@
 ﻿using Microsoft.OData.Edm;
 using Microsoft.OData.ModelBuilder;
-using ODataBookStore.Entity;
+using Repository.Entity;
+
 
 namespace ODataBookStore
 {

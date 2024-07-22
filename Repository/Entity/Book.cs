@@ -1,7 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-
-namespace ODataBookStore.Entity
+namespace Repository.Entity
 {
     public class Book
     {

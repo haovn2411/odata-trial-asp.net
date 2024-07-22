@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.OData.Query;
 using Microsoft.EntityFrameworkCore;
-using ODataBookStore.Entity;
+using Repository.Entity;
 
 namespace ODataBookStore.Controllers
 {

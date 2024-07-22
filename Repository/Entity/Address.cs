@@ -1,4 +1,4 @@
-﻿namespace ODataBookStore.Entity
+﻿namespace Repository.Entity
 {
     public class Address
     {

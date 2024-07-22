@@ -1,4 +1,4 @@
-﻿using ODataBookStore.Entity;
+﻿using Repository.Entity;
 
 namespace ODataBookStore.Model
 {

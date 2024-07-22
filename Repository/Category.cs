@@ -1,4 +1,4 @@
-﻿namespace ODataBookStore
+﻿namespace Repository
 {
     public enum Category
     {
